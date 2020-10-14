@@ -56,3 +56,34 @@ nav .navbar-brand {
     width: 100%;
     height: 100%;
 }
+
+.dropdown a {
+    color: white;
+
+}
+.dropdown-menu a{
+    color: black;
+}
+.dropdown {
+    text-decoration: none;
+    list-style: none;
+    text-align: none;
+    display: block;
+}
+
+.container2 {
+    margin-top: 5%;
+    position: relative;
+    width: 100%;
+}
+.container2 img {
+    width: 100%;
+}
+
+.text-block {
+    position: absolute;
+    bottom: 35%;
+    padding-left: 30%;
+    color: white;
+
+}

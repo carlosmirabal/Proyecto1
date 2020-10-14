@@ -13,7 +13,7 @@
     <title>Gamers</title>
 </head>
 <header>
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark ">
         <a class="navbar-brand" href="#"><strong>Gamers</strong></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -32,7 +32,26 @@
                 <li class="nav-item">
                     <a class="nav-link" href="#">Juegos</a>
                 </li>
+                <!-- <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle idiomas" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Idiomas
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">Español</a>
+                        <a class="dropdown-item" href="#">Inglés</a>
+                    </div>
+                </li> -->
             </ul>
+            <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle idiomas" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Idiomas
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">Español</a>
+                        <a class="dropdown-item" href="#">Inglés</a>
+                    </div>
+                </li>
+            
         </div>
     </nav>
     <!-- <div class="banner">
@@ -82,27 +101,14 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-sm-6">
-                <h2>CyberPunk Vuelte A Retrasarse</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ullamcorper ultrices diam, ut interdum augue ullamcorper eu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean pellentesque pellentesque magna a mattis. Nulla nunc libero, ultrices efficitur est non, posuere mattis felis. Donec lobortis ex ut felis tincidunt, eu eleifend elit aliquam. Praesent tempus libero sed lacus pulvinar, a finibus nunc ultrices. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Fusce ipsum ligula, malesuada non sapien quis, suscipit accumsan nulla. Pellentesque sollicitudin arcu ac tortor posuere lobortis. Ut nec dignissim tellus. In vitae leo a augue egestas ornare.</p>
+
+    <!-- Banner2 -->
+    <div class="container2">
+        <img src="img/banner3.jpg" alt="Banner2" class="img-fluid">
+            <div class="text-block text-center">
+                <h2>Toda La Actualidad De Los Videojuegos</h2>                
+                <button type="button" class="btn btn-outline-danger btn-lg waves-effect">Próximos Lanzamientos</button>
             </div>
-            <div class="col-sm-4">
-                <img src="img/cyberpunk.jpg" alt="">
-            </div>
-        </div>
-    </div>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-sm-4">
-                <img src="img/cyberpunk.jpg" alt="">
-            </div>
-            <div class="col-sm-6">
-                <h2>CyberPunk Vuelte A Retrasarse</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ullamcorper ultrices diam, ut interdum augue ullamcorper eu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean pellentesque pellentesque magna a mattis. Nulla nunc libero, ultrices efficitur est non, posuere mattis felis. Donec lobortis ex ut felis tincidunt, eu eleifend elit aliquam. Praesent tempus libero sed lacus pulvinar, a finibus nunc ultrices. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Fusce ipsum ligula, malesuada non sapien quis, suscipit accumsan nulla. Pellentesque sollicitudin arcu ac tortor posuere lobortis. Ut nec dignissim tellus. In vitae leo a augue egestas ornare.</p>
-            </div>
-        </div>
     </div>
 
     <br>
