@@ -11,11 +11,11 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <title>Gamers</title>
+    <title>Cursa</title>
 </head>
 <header>
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark ">
-        <a class="navbar-brand" href="#"><strong>Gamers</strong></a>
+<!--     <nav class="navbar  navbar-expand-lg ">
+        <a class="navbar-brand" href="#"><strong>Cursa Bellvitge</strong></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -25,15 +25,19 @@
                     <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link" href="#">Clasificación</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Inscripción</a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link" href="#">Noticias</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Lanzamientos</a>
+                    <a class="nav-link" href="#">Galeria</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Juegos</a>
-                </li>
-                <!-- <li class="nav-item dropdown">
+            </ul>
+            <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle idiomas" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Idiomas
                     </a>
@@ -41,7 +45,45 @@
                         <a class="dropdown-item" href="#">Español</a>
                         <a class="dropdown-item" href="#">Inglés</a>
                     </div>
-                </li> -->
+                </li>
+            
+        </div>
+    </nav> -->
+    <!-- <div class="banner">
+        <div class="container">
+            <div class="container h-100">
+                <div class="row h-100 align-items-center">
+                    <div class="col-12 text-center">
+                        <h1 class="font-weight-light ">Toda La Actualidad De Los Videojuegos</h1>
+                        <p class="lead">En esta web podrás informarte de los nuevos lanzamientos y noticias de juegos. Además, puedes ver todos los juegos que han salido hasta el día de hoy</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <div class="view intro-2 " style="">
+            <nav class="navbar  navbar-expand-lg ">
+        <a class="navbar-brand" href="#"><strong>Cursa Bellvitge</strong></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Clasificación</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="view/inscripcion.php">Inscripción</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Noticias</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Galeria</a>
+                </li>
             </ul>
             <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle idiomas" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -55,19 +97,6 @@
             
         </div>
     </nav>
-    <!-- <div class="banner">
-        <div class="container">
-            <div class="container h-100">
-                <div class="row h-100 align-items-center">
-                    <div class="col-12 text-center">
-                        <h1 class="font-weight-light ">Toda La Actualidad De Los Videojuegos</h1>
-                        <p class="lead">En esta web podrás informarte de los nuevos lanzamientos y noticias de juegos. Además, puedes ver todos los juegos que han salido hasta el día de hoy</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
-    <div class="view intro-2" style="">
         <div class="full-bg-img">
             <div class="mask rgba-purple-light flex-center">
                 <div class="container text-center  wow fadeInUp">
@@ -78,7 +107,7 @@
                     <p>Incluso podrás ver noticias sobre videojuegos</p>
                     
                     <p>Y por último, podrás ver los juegos que han salido hasta el día de hoy</p>
-                    <button type="button" class="btn btn-outline-danger btn-lg waves-effect">Próximos Lanzamientos</button>
+                    <button type="button" class="btn btn-outline-info btn-lg waves-effect">Próximos Lanzamientos</button>
                     </div>
                 </div>
             </div>
@@ -102,16 +131,16 @@
             </div>
         </div>
     </div>
-
+    <br><br>
     <!-- Banner2 -->
     <div class="container2">
-        <img src="img/banner3.jpg" alt="Banner2" class="img-fluid">
+        <!-- <img src="img/banner3.jpg" alt="Banner2" class=""> -->
             <div class="text-block text-center">
-                <h2>Toda La Actualidad De Los Videojuegos</h2>                
-                <button type="button" class="btn btn-outline-danger btn-lg waves-effect">Entrar</button>
+                <!-- <h2>Toda La Actualidad De Los Videojuegos</h2>                 -->
+                <!-- <button type="button" class="btn btn-outline-danger btn-lg waves-effect">Entrar</button> -->
             </div>
     </div>
-
+    <br><br>
     <!-- noticias -->
     <h1>Noticias</h1>
     <div class="card-deck">
