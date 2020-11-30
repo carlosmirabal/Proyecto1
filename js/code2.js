@@ -68,7 +68,7 @@ function validacionForm() {
         //     // enlace.innerHTML="Ocultar Contenido";
         // }
         
-        return false;
+        return true;
     }
 
 }

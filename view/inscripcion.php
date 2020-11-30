@@ -11,7 +11,7 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="../js/code2.js"></script>
+    <script type="text/javascript" src="../js/code.js"></script>
 	<title>Inscripción</title>
 </head>
 <header>
@@ -72,8 +72,9 @@
 			  	}
 			 ?>
 			 <!-- return validacionForm() && validarDNI()" -->
+			 <!-- onsubmit="return validarForm() && validarDNI()" -->
         <div class="full-bg-img d-flex justify-content-center">
-        	<form id="form" class="w-50 p-3" method="POST" onsubmit="return validacionForm() && validarDNI()" >
+        	<form id="form" class="w-50 p-3" method="POST" >
 			  <div class="form-row ">
 			    <div class="form-group col-md-6">
 			      <label for="inputEmail4">DNI</label>
@@ -98,6 +99,7 @@
 			    <div class="form-group col-md-6">
 			      <label for="inputCity">Fecha Nacimiento</label>
 			      <input type="date" class="form-control" id="fecha" name="fecha">
+			      <p id="nac"></p>
 			    </div>
 			    <div class="form-group col-md-6">
 			      <label for="inputCity">Correo</label>
@@ -115,23 +117,25 @@
 
 
 			  <div class="form-group">
-			      <label for="inputPassword4">Categoria</label>
-			      <select id="inputState" class="form-control" name="categoria" id="cate">
-			        <option selected> Elige una categoria</option>
+				  <!-- <label for="inputPassword4">Categoria</label> -->
+				  
+			      <!-- <select id="inputState" class="form-control" name="categoria" id="cate">
+			        <option selected> Elige una categoria</option> -->
 			      <?php 
-			      	foreach ($insDAO as $inscrip) {
-			      		echo '<option value="'.$inscrip["id_categoria"].'">'.$inscrip["nom_categoria"].'</label>';
-			      	}
+			      	// foreach ($insDAO as $inscrip) {
+			      	// 	echo '<option value="'.$inscrip["id_categoria"].'">'.$inscrip["nom_categoria"].'</label>';
+			      	// }
 			      ?>
 <!-- 			        <option>Infantil</option>
 			        <option>Junior</option>
 			        <option>Senior</option>
 			        <option>Veterenado</option>
 			        <option>Discapacitado</option> -->
-			      </select>
+			      <!-- </select> -->
 			  </div>
 			  <p id="message"></p>
-			  <input id="ins" type="submit" class="btn btn-primary" name="ins"></input>
+			  <p id="message2"></p>
+			  <button id="ins" type="submit" class="btn btn-primary" name="ins">Enviar</button>
 			</form>
 			<h1 id="resultado"></h1><br>
 			<h1 id="result2"></h1>
